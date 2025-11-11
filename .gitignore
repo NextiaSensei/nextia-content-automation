@@ -1,17 +1,25 @@
-venv/
-env/
-.venv/
-__pycache__/
-*.pyc
-*.pyo
-.pytest_cache/
+# Security
+.env
+.env.local
+.env.*.local
+
+# IDE
 .vscode/
 .idea/
-*.swp
-.env
+
+# Python
+__pycache__/
+*.pyc
+venv/
+env/
+
+# Output
 output/videos/*.mp4
 output/images/*.png
+
+# Docs sensibles (si aplica)
+docs/*.md
 logs/
-*.log
+
+# OS
 .DS_Store
-node_modules/
